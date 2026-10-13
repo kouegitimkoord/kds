@@ -499,7 +499,7 @@
 
   <header>
     <h1>Öğretim Yaklaşım & Yöntemleri Karar Destek Sistemi</h1>
-    <p>Sonucu doğrudan etkileyen kriterlerle (öğrenme çevresi, öğretim odağı ve pedagojik dinamik) dersinize en uygun yaklaşım ve yöntem setini hızlıca belirleyin.</p>
+    <p>Öğrenmeyi etkileyen kriterlerle (öğrenme çevresi, öğretim hedefi ve öğrenme süreci) dersinize en uygun yaklaşım ve yöntem setini hızlıca belirleyin.</p>
     <div class="nav-tabs">
       <button class="tab-btn active" onclick="switchTab('wizard')">🎯 Karar Sihirbazı</button>
       <button class="tab-btn" onclick="switchTab('matrix')">📋 Karşılaştırma Matrisi</button>
@@ -574,35 +574,35 @@
     <!-- TAB 3: AĞAÇ GÖRÜNÜMÜ -->
     <section id="tree-tab" class="view-section">
       <div class="tree-box">
-        <h2 style="font-size: 1.35rem; color: var(--primary); margin-bottom: 0.75rem;">Doğrudan Sonuç Üreten Karar Dalları</h2>
-        <p style="color: var(--text-muted); font-size: 0.925rem; margin-bottom: 1.5rem;">Sistemde yalnızca öğretim üyesinin nihai yaklaşım ve yöntem kümesini doğrudan belirleyen ve sonucu değiştiren kararlar yer alır.</p>
+        <h2 style="font-size: 1.35rem; color: var(--primary); margin-bottom: 0.75rem;">Sonuç Üreten Karar Dalları</h2>
+        <p style="color: var(--text-muted); font-size: 0.925rem; margin-bottom: 1.5rem;">Sistemde yalnızca öğretim elemanının yaklaşım ve yöntemini doğrudan belirleyen ve öğrenmeyi etkileyen kararlar yer alır.</p>
 
         <div>
-          <div class="tree-node-title">🌱 <strong>1. Kriter: Öğrenme Çevresi ve Zaman Kurgusu</strong></div>
+          <div class="tree-node-title">🌱 <strong>1. Kriter: Öğrenme Çevresi ve Zaman Yaklaşımı</strong></div>
           <div class="tree-branch">
             <div class="tree-leaf">
-              <strong>➔ Sınıf ve Okul Dışı Ortam (Saha, Doğa, Kurum):</strong> Doğrudan <strong>Sınıf/Okul Dışı Öğrenme</strong> yaklaşımını belirler.<br>
+              <strong>➔ Sınıf ve Okul Dışı Ortam (Saha, Doğa, Kurum):</strong> <strong>Sınıf/Okul Dışı Öğrenme</strong> yaklaşımı<br>
               <span style="color:#0f766e; font-weight:600;">Yöntemler:</span> Gezi, Gözlem, Görüşme (Mülakat).
             </div>
             <div class="tree-leaf">
-              <strong>➔ Harmanlanmış / Ters Yüz Kurgu (Teori Evde/Online, Pratik Sınıfta):</strong> Doğrudan <strong>Harmanlanmış / Ters Yüz Öğrenme</strong> yaklaşımını belirler.<br>
+              <strong>➔ Harmanlanmış / Ters Yüz Kurgu (Teori Evde/Online, Pratik Sınıfta):</strong> <strong>Harmanlanmış / Ters Yüz Öğrenme</strong> yaklaşımı<br>
               <span style="color:#0f766e; font-weight:600;">Yöntemler:</span> Tartışma Türleri (Çalıştay, Vızıltı Grupları), Örnek Olay, Benzetim.
             </div>
             <div class="tree-leaf">
               <strong>➔ Standart Sınıf veya Laboratuvar Ortamı:</strong> 2. Adıma geçer.
               
               <div class="tree-branch">
-                <div class="tree-node-title">🎯 <strong>2. Kriter: Öğretim Odağı & Hedef Düzeyi</strong></div>
+                <div class="tree-node-title">🎯 <strong>2. Kriter: Öğretim Hedefi & Hedef Düzeyi</strong></div>
                 <div class="tree-branch">
                   <div class="tree-leaf">
-                    <strong>➔ Öğretmen Merkezli (Temel Bilgi, Kavram ve İlke Aktarımı):</strong> Doğrudan <strong>Sunuş Yoluyla Öğretim</strong> yaklaşımını belirler.<br>
+                    <strong>➔ Öğretmen Merkezli (Temel Bilgi, Kavram ve İlke Aktarımı):</strong> <strong>Sunuş Yoluyla Öğretim</strong> yaklaşımı<br>
                     <span style="color:#0f766e; font-weight:600;">Yöntemler:</span> Soru-Cevap, Sokratik Sorgulama, Gösteri / Gösterip Yaptırma.
                   </div>
                   <div class="tree-leaf">
                     <strong>➔ Öğrenci Merkezli (Üst Düzey Beceri & Aktif Uygulama):</strong> 3. Adıma geçer.
                     
                     <div class="tree-branch">
-                      <div class="tree-node-title">⚡ <strong>3. Kriter: Öğrenmeyi Tetikleyen Temel Dinamik</strong></div>
+                      <div class="tree-node-title">⚡ <strong>3. Kriter: Öğrenmeyi Tetikleyen Temel Süreç</strong></div>
                       <div class="tree-branch">
                         <div class="tree-leaf">
                           <strong>• Gerçek Yaşam Problemi / Vaka:</strong> <strong>Probleme Dayalı Öğrenme</strong><br>
@@ -645,11 +645,11 @@
       {
         id: "outdoors",
         approach: "Sınıf / Okul Dışı Öğrenme",
-        rationale: "Öğrenme içeriğinin yerinde incelenmesi, doğal ya da kurumsal çevreyle doğrudan temas kurulması hedeflendiği için bu yaklaşım belirlenmiştir.",
+        rationale: "Öğrenme içeriğinin yerinde incelenmesi, doğal ya da kurumsal çevreyle doğrudan temas kurulması hedeflendiği durumlarda bu yaklaşım belirlenmiştir.",
         environment: "Saha, okul bahçesi, müze, arazi, sanayi tesisi, resmi kurumlar",
         role: "Öğretmen organize edici ve rehber, öğrenci aktif gözlemci ve araştırmacı",
         methods: [
-          { name: "Gezi", level: "Uygulama", desc: "Müze, fabrika, doğal park veya kurumlara önceden planlanmış, kazanım odaklı yerinde inceleme ziyareti.", tip: "Geziden önce mutlaka odaklı bir gözlem/soru formu dağıtılmalıdır." },
+          { name: "Gezi", level: "Uygulama", desc: "Müze, fabrika, doğal park veya kurumlara önceden planlanmış, kazanım odaklı yerinde inceleme ziyareti.", tip: "Geziden önce mutlaka bir gözlem/soru formu dağıtılmalıdır." },
           { name: "Gözlem", level: "Temel", desc: "Doğal, teknik veya sosyal süreçlerin kendi gerçekliği içinde objektif kriterlerle izlenip kaydedilmesi.", tip: "Gözlem formunun dereceli veya yapılandırılmış olması veri kaybını önler." },
           { name: "Görüşme (Mülakat)", level: "Uygulama", desc: "Sahadaki uzman, çalışan veya tanık kişilerle önceden belirlenmiş sorularla doğrudan bilgi alışverişi.", tip: "Öğrencilerin önceden soru havuzu oluşturması ve görüşme etiğine uyması sağlanmalıdır." }
         ]
@@ -657,9 +657,9 @@
       {
         id: "blended",
         approach: "Harmanlanmış Öğrenme / Ters Yüz Öğrenme",
-        rationale: "Ders saatinin teorik anlatımla tüketilmemesi; temel bilginin evde dijital ortamda alınıp sınıf süresinin tartışma ve problem analizine ayrılması amaçlandığı için bu yaklaşım seçilmiştir.",
+        rationale: "Ders saatinin teorik anlatımla harcanmaması; temel bilginin evde dijital ortamda alınıp sınıf süresinin tartışma ve problem analizine ayrılması amaçlandığı için bu yaklaşım seçilmiştir.",
         environment: "Ev (Dijital LMS / Video) + Sınıf (Yüz yüze etkileşim ve atölye)",
-        role: "Öğrenci ders öncesinde bağımsız öğrenen, sınıfta uygulayıcı; öğretmen kolaylaştırıcı koç",
+        role: "Öğrenci ders öncesinde bağımsız öğrenen, sınıfta uygulayıcı; öğretmen öğrenme sürecini destekleyeci",
         methods: [
           { name: "Tartışma Türleri (Çalıştay, Vızıltı Grupları, Düşün-İkili Çalış-Paylaş)", level: "Üst Düzey", desc: "Evde edinilen teorik bilginin sınıfta küçük gruplarla hızla analizi ve sentezlenmesi.", tip: "Sınıf süresini asla tekrar anlatımla geçirmeyin; doğrudan vaka ve tartışma açın." },
           { name: "Örnek Olay", level: "Üst Düzey", desc: "Öğrencilerin ön hazırlıkla geldikleri teoriyi sınıfta somut bir vaka metni üzerinde test etmeleri.", tip: "Vakanın tartışmalı ve birden fazla karar seçeneği sunan nitelikte olması verimi artırır." },
@@ -671,11 +671,11 @@
         approach: "Sunuş Yoluyla Öğretim",
         rationale: "Kısa sürede yoğun kavramsal ve ilkesel bilginin yapılandırılmış biçimde aktarılması, ön bilgilerin tamamlanması ve kavram yanılgılarının giderilmesi hedeflendiği için bu yaklaşım uygundur.",
         environment: "Geleneksel amfi, sınıf veya sunum düzeni",
-        role: "Öğretmen aktif yapılandırıcı ve aktarıcı, öğrenci alıcı ve dönüt sağlayıcı",
+        role: "Öğretmen aktif yapılandırıcı ve aktaran, öğrenci bilgi alan ve dönüt sağlayan",
         methods: [
-          { name: "Soru-Cevap", level: "Temel", desc: "Öğrencilerin dikkatini toplamak, anlama düzeyini anlık ölçmek ve etkileşimi diri tutmak için uygulanır.", tip: "Sadece hatırlama düzeyinde kalmayın; 'Nasıl gerekçelendirirsiniz?' soruları ekleyin." },
-          { name: "Sokratik Sorgulama", level: "Üst Düzey", desc: "Öğrencinin doğru bildiği çelişkileri adım adım sorgulatarak kavramı kendi zihninde doğurmasını sağlama.", tip: "Kavram yanılgılarını ve ezberleri kırmada en etkili yöntemdir." },
-          { name: "Gösteri / Gösterip Yaptırma", level: "Uygulama", desc: "Fiziksel performans gerektiren (psikomotor) veya teknik bir becerinin önce hoca tarafından adım adım gösterilmesi, ardından öğrenciye yaptırılması.", tip: "Tüm adımların açıkça görülebilir ve güvenli olduğundan emin olunmalıdır." }
+          { name: "Soru-Cevap", level: "Temel", desc: "Öğrencilerin dikkatini toplamak, anlama düzeyini anlık ölçmek ve etkileşimi canlı tutmak için uygulanır.", tip: "Sadece hatırlama düzeyinde kalmayın; 'Nasıl gerekçelendirirsiniz?' soruları ekleyin." },
+          { name: "Sokratik Sorgulama", level: "Üst Düzey", desc: "Öğrencinin doğru bildiği çelişkileri adım adım sorgulatarak kavramı kendi zihninde doğurmasını sağlama.", tip: "Kavram yanılgıları ve ezberin önüne geçmede etkili yöntemdir." },
+          { name: "Gösteri / Gösterip Yaptırma", level: "Uygulama", desc: "Fiziksel performans gerektiren (psikomotor) veya teknik bir becerinin önce öğretim elemanı tarafından adım adım gösterilmesi, ardından öğrenciye yaptırılması.", tip: "Tüm adımların açıkça görülebilir ve güvenli olduğundan emin olunmalıdır." }
         ]
       },
       {
@@ -683,11 +683,11 @@
         approach: "Probleme Dayalı Öğrenme",
         rationale: "Öğrenme sürecinin gerçek dünyadan alınmış, karmaşık ve tek bir çözümü olmayan bir problem senaryosu etrafında yapılandırılması amaçlandığı için bu yaklaşım seçilmiştir.",
         environment: "Esnek oturma düzenli sınıf veya araştırma ortamı",
-        role: "Öğrenci problem çözücü ve stratejist, öğretmen rehber",
+        role: "Öğrenci problem çözen, öğretmen rehber",
         methods: [
           { name: "Problem Çözme", level: "Üst Düzey", desc: "Bilimsel basamakları (sorunu tanımlama, veri toplama, hipotez kurma, çözüm üretme) izleme.", tip: "Problemin iyi yapılandırılmamış (birden fazla olası çözümü olan) olması şarttır." },
           { name: "Örnek Olay", level: "Üst Düzey", desc: "Yaşanmış veya kurgusal bir olay metni üzerinden kriz analizi ve karar alma.", tip: "Öğrencilerin farklı bakış açılarını savunmalarını teşvik edin." },
-          { name: "Beyin Fırtınası", level: "Üst Düzey", desc: "Problem durumuna ilişkin eleştiri süzgeci olmaksızın hızlı ve çok sayıda yaratıcı fikir üretme.", tip: "Süreçte hiçbir fikrin anında reddedilmesine veya alaya alınmasına izin verilmez." }
+          { name: "Beyin Fırtınası", level: "Üst Düzey", desc: "Problem durumuna ilişkin eleştiri süzgeci olmaksızın hızlı ve çok sayıda yaratıcı fikir üretme.", tip: "Süreçte hiçbir fikrin anında reddedilmesine veya önemsiz görülmesine izin verilmez." }
         ]
       },
       {
@@ -706,7 +706,7 @@
         approach: "Araştırma / İncelemeye Dayalı Öğrenme",
         rationale: "Öğrencilerin bilim insanı gibi hareket ederek hipotezler kurması, deney yapması ve veriye dayalı kanıtlarla bilgiye ulaşması hedeflendiği için bu yaklaşım tercih edilmiştir.",
         environment: "Fen/Sosyal laboratuvarları, veri analiz merkezleri, kütüphaneler",
-        role: "Öğrenci araştırmacı bilim insanı, öğretmen bilimsel yöntem koçu",
+        role: "Öğrenci araştırmacı bilim insanı, öğretmen bilimsel yöntem rehberi",
         methods: [
           { name: "Deney Yapma", level: "Uygulama", desc: "Değişkenleri kontrol ederek kontrollü deney ortamında neden-sonuç bağıntılarını test etme.", tip: "Öğrencilere sadece 'yemek tarifi' gibi yönerge uygulatmayın; değişkenleri kendilerinin belirlemesini sağlayın." },
           { name: "Problem Çözme", level: "Üst Düzey", desc: "Bilimsel araştırma metodolojisiyle veri derleme, test etme ve raporlama.", tip: "Veri güvenilirliği ve araştırma etiği ilkeleri mutlaka vurgulanmalıdır." }
@@ -717,20 +717,20 @@
         approach: "Grupla / İşbirlikli Öğrenme",
         rationale: "Öğrencilerin ortak hedefe ulaşmak için sosyal sorumluluk alması, akran etkileşimi, empati ve çok yönlü tartışma yoluyla öğrenmesi istendiği için bu yaklaşım belirlenmiştir.",
         environment: "Grup masaları düzeninde etkileşimli sınıf ortamı",
-        role: "Öğrenciler takım arkadaşı ve ortak sorumlu, öğretmen kolaylaştırıcı moderatör",
+        role: "Öğrenciler takım arkadaşı ve ortak sorumlu, öğretmen destek sunan moderatör",
         methods: [
           { name: "Tartışma Türleri (Panel, Çalıştay, Münazara, Açık Oturum, Yuvarlak Masa, Vızıltı Grupları, Düşün-İkili Çalış-Paylaş)", level: "Üst Düzey", desc: "Fikirlerin savunulduğu, tez-antitez üretildiği ve ortak uzlaşıya varıldığı yapılandırılmış oturumlar.", tip: "Gruplar oluşturulurken akademik ve sosyal açıdan heterojen dağılım sağlanmalıdır." },
           { name: "Altı Şapka", level: "Üst Düzey", desc: "Bir konunun duygusal, iyimser, eleştirel, yaratıcı, bilgi odaklı ve yönetimsel açılardan sistematik analizi.", tip: "Tüm sınıfın aynı anda aynı şapka rengini takması düşünce karmaşasını önler." },
           { name: "Rol Oynama / Canlandırma", level: "Uygulama", desc: "Kişilerarası ilişkileri, mesleki senaryoları veya etik ikilemleri empati kurarak sahneleme.", tip: "Canlandırma sonrasında mutlaka sınıfça 'rol dışı' duygu ve karar analizi yapılmalıdır." },
-          { name: "Beyin Fırtınası", level: "Üst Düzey", desc: "Grupça en kısa sürede yargılama olmaksızın özgün fikirler kümesi oluşturma.", tip: "Önce miktar hedeflenmeli, eleme ve gruplandırma ikinci aşamaya bırakılmalıdır." }
+          { name: "Beyin Fırtınası", level: "Üst Düzey", desc: "Grupça en kısa sürede yargılama olmaksızın özgün fikirler oluşturma.", tip: "Önce miktar hedeflenmeli, eleme ve gruplandırma ikinci aşamaya bırakılmalıdır." }
         ]
       },
       {
         id: "individual",
         approach: "Bireysel Öğrenme",
-        rationale: "Öğrencinin kendi öğrenme hızında, bireysel sorumluluk alarak ve özerk çalışma stratejileriyle ilerlemesi hedeflendiği için bu yaklaşım seçilmiştir.",
+        rationale: "Öğrencinin kendi öğrenme hızında, bireysel sorumluluk alarak ve kendi kendine çalışma stratejileriyle ilerlemesi hedeflendiği için bu yaklaşım seçilmiştir.",
         environment: "Bireysel çalışma istasyonları, kişisel bilgisayar ortamı veya atölye",
-        role: "Öğrenci tam özerk yönetici, öğretmen bireysel geri bildirim danışmanı",
+        role: "Öğrenci tam bireysel öğrenme sürecini yöneten, öğretmen geri bildirim sunan danışman",
         methods: [
           { name: "Benzetim (Simülasyon)", level: "Uygulama", desc: "Maliyetli, tehlikeli ya da tekrarı zor senaryoların dijital veya model ortamında bireysel olarak denenmesi.", tip: "Öğrenciye sınırsız deneme-yanılma ve anında geri bildirim alma özgürlüğü tanır." },
           { name: "Performans Görevi", level: "Üst Düzey", desc: "Öğrencinin kendi ilgi alanı ve temposu doğrultusunda bireysel rapor veya portfolyo hazırlaması.", tip: "Zaman yönetimi ve ara teslim takvimleri net belirlenmelidir." }
@@ -761,7 +761,7 @@
 
         container.innerHTML = `
           <div class="question-title">Dersinizin fiziksel ve zamansal ortamı neresidir?</div>
-          <div class="question-desc">Bu seçim doğrudan yaklaşım ailesini belirler. Sınıf dışı veya karma kurgular başka adıma gerek kalmadan yaklaşımı netleştirir.</div>
+          <div class="question-desc">Bu seçim doğrudan öğretim yaklaşımını belirler. Sınıf dışı veya harmanlanmış süreçler başka adıma gerek kalmadan yaklaşımı netleştirir.</div>
           <div class="options-grid">
             <div class="option-card ${wizardPath.env === 'outside' ? 'selected' : ''}" onclick="selectEnv('outside')">
               <div class="option-header">
@@ -769,7 +769,7 @@
                 <span>${wizardPath.env === 'outside' ? '✓' : '○'}</span>
               </div>
               <div class="option-desc">Doğal çevre, müze, fabrika, kurum veya arazi ziyareti. Ders mekânı doğrudan sahadır.</div>
-              <span class="option-impact">⚡ Doğrudan Sonuç: Sınıf/Okul Dışı Öğrenme</span>
+              <span class="option-impact">⚡ Sonuç: Sınıf/Okul Dışı Öğrenme</span>
             </div>
 
             <div class="option-card ${wizardPath.env === 'blended' ? 'selected' : ''}" onclick="selectEnv('blended')">
@@ -778,7 +778,7 @@
                 <span>${wizardPath.env === 'blended' ? '✓' : '○'}</span>
               </div>
               <div class="option-desc">Teorik bilgi ve ön hazırlık dijital ortamda/evde; derinlemesine uygulama, tartışma ve vaka analizi yüz yüze sınıfta.</div>
-              <span class="option-impact">⚡ Doğrudan Sonuç: Harmanlanmış / Ters Yüz Öğrenme</span>
+              <span class="option-impact">⚡ Sonuç: Harmanlanmış / Ters Yüz Öğrenme</span>
             </div>
 
             <div class="option-card ${wizardPath.env === 'classroom' ? 'selected' : ''}" onclick="selectEnv('classroom')">
@@ -786,20 +786,20 @@
                 <span>🏫 Standart Sınıf veya Laboratuvar</span>
                 <span>${wizardPath.env === 'classroom' ? '✓' : '○'}</span>
               </div>
-              <div class="option-desc">Dersin bütünü yerleşik derslik, amfi, atölye veya laboratuvar içinde yüz yüze yürütülecektir.</div>
-              <span class="option-impact">➔ Devam: Öğretim Odağını Seçin (Adım 2)</span>
+              <div class="option-desc">Dersin bütünü derslik, amfi, atölye veya laboratuvar içinde yüz yüze yürütülecektir.</div>
+              <span class="option-impact">➔ Devam: Öğretim Hedefini Seçin (Adım 2)</span>
             </div>
           </div>
         `;
       } 
       else if (wizardPath.step === 2) {
-        badge.innerText = "2. Karar: Öğretim Odağı & Hedeflenen Bilişsel Düzey";
+        badge.innerText = "2. Karar: Öğretim Hedefi & Hedeflenen Bilişsel Düzey";
         nextBtn.innerText = (wizardPath.focus === "teacher") ? "Sonucu Gör 🚀" : "İleri →";
         nextBtn.disabled = !wizardPath.focus;
 
         container.innerHTML = `
-          <div class="question-title">Öğretim sürecinin odağında kim yer alıyor ve temel hedef nedir?</div>
-          <div class="question-desc">Kısa sürede bilgi/kavram aktarımı doğrudan Sunuş Yolu yaklaşımını belirler; öğrenci merkezli üst düzey beceriler dinamik ayrımına yönlendirir.</div>
+          <div class="question-title">Öğretim sürecinin hedefinde kim yer alıyor ve temel hedef nedir?</div>
+          <div class="question-desc">Kısa sürede bilgi/kavram aktarımı için Sunuş Yolu yaklaşımı uygundur; öğrenci merkezli üst düzey beceriler için öğrenme süreci belirlenmelidir.</div>
           <div class="options-grid">
             <div class="option-card ${wizardPath.focus === 'teacher' ? 'selected' : ''}" onclick="selectFocus('teacher')">
               <div class="option-header">
@@ -807,7 +807,7 @@
                 <span>${wizardPath.focus === 'teacher' ? '✓' : '○'}</span>
               </div>
               <div class="option-desc">Kavramların yapılandırılması, temel ilkelerin açıklanması, ön bilgilerin tamamlanması ve kavram yanılgılarının giderilmesi esastır.</div>
-              <span class="option-impact">⚡ Doğrudan Sonuç: Sunuş Yoluyla Öğretim</span>
+              <span class="option-impact">⚡ Sonuç: Sunuş Yoluyla Öğretim</span>
             </div>
 
             <div class="option-card ${wizardPath.focus === 'student' ? 'selected' : ''}" onclick="selectFocus('student')">
@@ -816,19 +816,19 @@
                 <span>${wizardPath.focus === 'student' ? '✓' : '○'}</span>
               </div>
               <div class="option-desc">Öğrencinin bizzat sorguladığı, ürettiği, akranlarıyla tartıştığı veya bir problemi çözdüğü aktif öğrenme süreci.</div>
-              <span class="option-impact">➔ Devam: Pedagojik Dinamiği Seçin (Adım 3)</span>
+              <span class="option-impact">➔ Devam: Öğrenme Sürecini Seçin (Adım 3)</span>
             </div>
           </div>
         `;
       } 
       else if (wizardPath.step === 3) {
-        badge.innerText = "3. Karar: Öğrenmeyi Tetikleyen Temel Pedagojik Dinamik";
+        badge.innerText = "3. Karar: Öğrenmeyi Tetikleyen Temel Süreç";
         nextBtn.innerText = "Sonucu Gör 🚀";
         nextBtn.disabled = !wizardPath.dynamic;
 
         container.innerHTML = `
-          <div class="question-title">Öğrencinin eylemini ve motivasyonunu başlatan temel itici güç nedir?</div>
-          <div class="question-desc">Bu son karar, öğrenci merkezli 5 temel yaklaşım arasından dersinize en uygun olanı ve buna bağlı yöntem setini kesinleştirir.</div>
+          <div class="question-title">Öğrencinin eylemini ve motivasyonunu başlatan temel neden nedir?</div>
+          <div class="question-desc">Bu son karar, öğrenci merkezli 5 temel yaklaşım arasından dersinize en uygun olanı ve buna bağlı yöntemleri önerir.</div>
           <div class="options-grid">
             <div class="option-card ${wizardPath.dynamic === 'pbl' ? 'selected' : ''}" onclick="selectDynamic('pbl')">
               <div class="option-header">
@@ -955,7 +955,7 @@
         pathPills = ["Öğrenme Çevresi: Harmanlanmış / Ters Yüz"];
       } else if (wizardPath.focus === "teacher") {
         targetId = "direct";
-        pathPills = ["Ortam: Sınıf İçi", "Odak: Öğretmen Merkezli / Bilgi Aktarımı"];
+        pathPills = ["Ortam: Sınıf İçi", "Hedef: Öğretmen Merkezli / Bilgi Aktarımı"];
       } else {
         targetId = wizardPath.dynamic;
         let dynName = "";
@@ -964,7 +964,7 @@
         if (targetId === "inquiry") dynName = "Bilimsel Araştırma & Hipotez";
         if (targetId === "coop") dynName = "Akran Etkileşimi & Ortak Akıl";
         if (targetId === "individual") dynName = "Bireysel Hız & Bağımsız Çalışma";
-        pathPills = ["Ortam: Sınıf İçi", "Odak: Öğrenci Merkezli", "Temel Dinamik: " + dynName];
+        pathPills = ["Ortam: Sınıf İçi", "Hedef: Öğrenci Merkezli", "Öğrenme Süreci: " + dynName];
       }
 
       const match = database.find(d => d.id === targetId);
@@ -989,7 +989,7 @@
 
       resultContainer.innerHTML = `
         <div class="result-hero">
-          <span class="result-badge">Doğrudan Eşleşen Öğretim Yaklaşımı</span>
+          <span class="result-badge"> Eşleşen Öğretim Yaklaşımı</span>
           <h2>${match.approach}</h2>
           <p>${match.rationale}</p>
           <div class="result-path-trace">
@@ -1002,7 +1002,7 @@
           <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
             <div>
               <h3 style="font-size:1.3rem; color:var(--text);">Önerilen Yöntem ve Teknik Havuzu</h3>
-              <p style="font-size:0.875rem; color:var(--text-muted);">Bu yaklaşım altında ders kazanımınıza uygun olarak doğrudan kullanabileceğiniz yöntemler:</p>
+              <p style="font-size:0.875rem; color:var(--text-muted);">Bu yaklaşım altında ders kazanımınıza uygun olarak kullanabileceğiniz yöntemler:</p>
             </div>
             <button class="btn btn-outline" onclick="window.print()">🖨️ Karar Raporunu Yazdır / PDF</button>
           </div>
