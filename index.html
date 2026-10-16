@@ -560,7 +560,7 @@
               <th>Öğretim Yaklaşımı</th>
               <th>Önerilen Yöntem </th>
               <th>Hedef & Beceri Türü</th>
-              <th>Öğrenme Ortamı</th>
+              <th>Fiziksel ve Zamansal (Eş zamanlı - Eş zamansız) Ortam </th>
               <th>Öğretmen & Öğrenci Rolü</th>
             </tr>
           </thead>
@@ -581,7 +581,7 @@
           <div class="tree-node-title">🌱 <strong>1. Kriter: Öğrenme Çevresi ve Zaman Yaklaşımı</strong></div>
           <div class="tree-branch">
             <div class="tree-leaf">
-              <strong>➔ Sınıf ve Okul Dışı Ortam (Saha, Doğa, Kurum):</strong> <strong>Sınıf/Okul Dışı Öğrenme</strong> yaklaşımı<br>
+              <strong>➔ Sınıf/Okul Dışı Ortam (Saha, Doğa, Kurum):</strong> <strong>Sınıf/Okul Dışı Öğrenme</strong> yaklaşımı<br>
               <span style="color:#0f766e; font-weight:600;">Yöntemler:</span> Gezi, Gözlem, Görüşme (Mülakat).
             </div>
             <div class="tree-leaf">
@@ -755,7 +755,7 @@
       prevBtn.style.visibility = wizardPath.step > 1 ? "visible" : "hidden";
 
       if (wizardPath.step === 1) {
-        badge.innerText = "1. Karar: Öğrenme Çevresi & Zaman Kurgusu";
+        badge.innerText = "1. Karar: Fiziksel ve Zamansal (Eş zamanlı - Eş zamansız) Ortam";
         nextBtn.innerText = (wizardPath.env === "outside" || wizardPath.env === "blended") ? "Sonucu Gör 🚀" : "İleri →";
         nextBtn.disabled = !wizardPath.env;
 
@@ -765,7 +765,7 @@
           <div class="options-grid">
             <div class="option-card ${wizardPath.env === 'outside' ? 'selected' : ''}" onclick="selectEnv('outside')">
               <div class="option-header">
-                <span>🏞️ Sınıf ve Okul Dışı Ortam</span>
+                <span>🏞️ Sınıf/Okul Dışı Ortam</span>
                 <span>${wizardPath.env === 'outside' ? '✓' : '○'}</span>
               </div>
               <div class="option-desc">Doğal çevre, müze, fabrika, kurum veya arazi ziyareti. Ders mekânı doğrudan sahadır.</div>
