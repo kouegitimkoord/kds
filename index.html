@@ -499,7 +499,7 @@
 
   <header>
     <h1>Öğrenme/Öğretme Yaklaşım & Yöntemleri Karar Destek Sistemi</h1>
-    <p>Öğrenmeyi etkileyen kriterlerle (öğrenme çevresi, öğretim hedefi ve öğrenme süreci) dersinize en uygun yaklaşım ve yöntem setini hızlıca belirleyin.</p>
+    <p>Öğrenmeyi etkileyen kriterlerle (öğrenme/öğretme ortamı, hedefi ve  süreci) dersinize en uygun yaklaşım ve yöntem setini hızlıca belirleyin.</p>
     <div class="nav-tabs">
       <button class="tab-btn active" onclick="switchTab('wizard')">🎯 Karar Sihirbazı</button>
       <button class="tab-btn" onclick="switchTab('matrix')">📋 Karşılaştırma Matrisi</button>
@@ -949,13 +949,13 @@
 
       if (wizardPath.env === "outside") {
         targetId = "outdoors";
-        pathPills = ["Öğrenme Çevresi: Sınıf/Okul Dışı Ortam"];
+        pathPills = ["Öğrenme/Öğretme Ortamı: Sınıf/Okul Dışı Ortam"];
       } else if (wizardPath.env === "blended") {
         targetId = "blended";
-        pathPills = ["Öğrenme Çevresi: Harmanlanmış / Ters Yüz"];
+        pathPills = ["Öğrenme/Öğretme Ortamı: Harmanlanmış / Ters Yüz"];
       } else if (wizardPath.focus === "teacher") {
         targetId = "direct";
-        pathPills = ["Ortam: Sınıf İçi", "Hedef: Öğretim Elemanı Merkezli / Bilgi Aktarımı"];
+        pathPills = ["Öğrenme/Öğretme Ortamı: Sınıf İçi", "Hedef: Öğretim Elemanı Merkezli / Bilgi Aktarımı"];
       } else {
         targetId = wizardPath.dynamic;
         let dynName = "";
@@ -964,7 +964,7 @@
         if (targetId === "inquiry") dynName = "Bilimsel Araştırma & Hipotez";
         if (targetId === "coop") dynName = "Akran Etkileşimi & Ortak Akıl";
         if (targetId === "individual") dynName = "Bireysel Hız & Bağımsız Çalışma";
-        pathPills = ["Ortam: Sınıf İçi", "Hedef: Öğrenci Merkezli", "Öğrenme Süreci: " + dynName];
+        pathPills = ["Öğrenme/Öğretme Ortamı: Sınıf İçi", "Hedef: Öğrenci Merkezli", "Öğrenme Süreci: " + dynName];
       }
 
       const match = database.find(d => d.id === targetId);
